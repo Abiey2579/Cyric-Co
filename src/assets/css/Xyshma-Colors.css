@@ -1,0 +1,116 @@
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .Blur {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+:root {
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    YELLOW COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Yellow: #fbbc05;
+  --Yellow-900: #fbbc05e6;
+  --Yellow-800: #fbbc05cc;
+  --Yellow-700: #fbbc05b3;
+  --Yellow-600: #fbbc0599;
+  --Yellow-500: #fbbc0580;
+  --Yellow-400: #fbbc0566;
+  --Yellow-300: #fbbc054d;
+  --Yellow-200: #fbbc0533;
+  --Yellow-100: #fbbc051a;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    BLUE COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Blue: #4285f4;
+  --Blue-700: #3367ee;
+  --Blue-600: #3b76f1;
+  --Blue-500: #4285f1;
+  --Blue-400: #5f98f4;
+  --Blue-300: #7baaf7;
+  --Blue-200: #a1c2fa;
+  --Blue-100: #c6dafc;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    RED COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Red: #ea4335;
+  --Red-900: #ea4335e6;
+  --Red-800: #ea4335cc;
+  --Red-700: #ea4335b3;
+  --Red-600: #ea433599;
+  --Red-500: #ea433580;
+  --Red-400: #ea433566;
+  --Red-300: #ea43354d;
+  --Red-200: #ea433533;
+  --Red-100: #ea43351a;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    GREEN COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Green: #34a853;
+  --Green-900: #34a853e6;
+  --Green-900: #34a853cc;
+  --Green-900: #34a853b3;
+  --Green-900: #34a85399;
+  --Green-900: #34a85380;
+  --Green-900: #34a85366;
+  --Green-900: #34a8534d;
+  --Green-900: #34a85333;
+  --Green-900: #34a8531a;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    BLACK COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Black: #000000;
+  --Black-900: #000000e6;
+  --Black-800: #000000cc;
+  --Black-700: #000000b3;
+  --Black-600: #00000099;
+  --Black-500: #00000080;
+  --Black-400: #00000066;
+  --Black-300: #0000004d;
+  --Black-200: #00000033;
+  --Black-100: #0000001a;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    GRAY COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Dark-Gray: #17181c;
+  --Dark-Gray-100: #f8f9fc;
+  --Dark-Gray-200: #eaecf4;
+  --Dark-Gray-300: #dddfeb;
+  --Dark-Gray-400: #d1d3e2;
+  --Dark-Gray-500: #b7b9cc;
+  --Dark-Gray-600: #858796;
+  --Dark-Gray-700: #6e707e;
+  --Dark-Gray-800: #5a5c69;
+  --Dark-Gray-900: #3a3b45;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    WHITE COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --White: #ffffff;
+  /* 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    TRANSPARENTS COLORS FAMILY 
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Overlay-Light: rgba(0, 0, 0, 0.6);
+  --Overlay-Dark: rgba(0, 0, 0, 0.8);
+  --Black-Zero-Opacity: rgba(0, 0, 0, 0);
+  /* Borders */
+  --Border-Gray: rgba(0, 0, 0, 0.06);
+  /* Nagivation */
+  --NavBar-Padding-LR: 2.575rem;
+  --NavBar-Padding-TB: 0.5rem;
+}
