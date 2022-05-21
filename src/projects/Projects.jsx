@@ -19,7 +19,7 @@ class Projects extends React.Component {
       .then((data) => {
         if (data.message) {
           alert(data.message);
-        } else {
+        } else { 
           this.setState({ GitHub: data });
         }
       })
@@ -45,6 +45,7 @@ class Projects extends React.Component {
                   />
                 </div>
               ))}
+          {console.log(this.state.GitHub)}
         </div>
       </div>
     );
