@@ -19,7 +19,7 @@ const Xyshma = () => {
           </span>
           <span className="Xyshma-Service-Category x-btn mb-3">
             <i className="fi fi-bug fi-fw Xyshma-Service-Icon mr-2"></i>
-            Bug-Source
+            Bug-Based
           </span>
           <span className="Xyshma-Service-Category x-btn mb-3">
             <img
