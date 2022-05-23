@@ -1,7 +1,5 @@
 import React from "react";
 import ProjectCard from "../Cards/ProjectCard";
-
-import Image1 from "./images/Home-Cover-1.jpg";
 import GitHubJSON from "./Git.json";
 
 class Projects extends React.Component {
@@ -34,7 +32,6 @@ class Projects extends React.Component {
             : this.state.GitHub.map((CardItems) => (
                 <div className="col-md-4 mb-5" key={CardItems.id}>
                   <ProjectCard
-                    CardImage={Image1}
                     CardTitle={CardItems.name}
                     CardDescription={CardItems.description}
                     CardFollow={CardItems.html_url}

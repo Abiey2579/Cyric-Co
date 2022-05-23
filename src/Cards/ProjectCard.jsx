@@ -4,7 +4,6 @@ import "./css/ProjectCard.css";
 const ProjectCard = (props) => {
   return (
     <div className="x-card Project-Card">
-      <img src={props.CardImage} className="x-card-img" alt={props.CardTitle} />
       <div className="x-card-body Project-Card-Body">
         <div className="card-title-wrapper">
           <a
