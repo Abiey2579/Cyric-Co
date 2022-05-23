@@ -15,9 +15,6 @@ const ProjectCard = (props) => {
           >
             {props.CardTitle}
           </a>
-          <span className="badge badge-danger x-float-right">
-            {props.CardBugBased === null ? "Bug-based" : ""}
-          </span>
         </div>
         <p className="x-card-description">
           {props.CardDescription.length > 100

@@ -2,11 +2,7 @@ import React from "react";
 import ProjectCard from "../Cards/ProjectCard";
 
 import Image1 from "./images/Home-Cover-1.jpg";
-// import Image2 from "./images/Home-Cover-2.jpg";
-// import Image3 from "./images/Home-Cover-3.jpg";
-// import Image4 from "./images/Home-Cover-4.jpg";
-// import Image5 from "./images/Home-Cover-5.jpg";
-// import Image6 from "./images/Home-Cover-6.jpg";
+import GitHubJSON from "./Git.json";
 
 class Projects extends React.Component {
   state = {
@@ -19,12 +15,13 @@ class Projects extends React.Component {
       .then((data) => {
         if (data.message) {
           alert(data.message);
-        } else { 
+        } else {
           this.setState({ GitHub: data });
         }
       })
       .catch((rejected) => {
-        alert(rejected);
+        // alert(rejected);
+        this.setState({ GitHub: GitHubJSON });
       });
   }
 
