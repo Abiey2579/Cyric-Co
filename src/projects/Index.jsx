@@ -2,7 +2,6 @@ import React from "react";
 import "./../assets/css/Xyshma-Defaults.css";
 
 import MainNav from "./../Navigator/Index";
-import ProjectsFilter from "./ProjectsFilter";
 import Projects from "./Projects";
 import Footer from "./../Footer/Footer";
 
@@ -13,7 +12,6 @@ class XyshmaProjects extends React.Component {
     return (
       <React.Fragment>
         <MainNav />
-        <ProjectsFilter />
         <Projects />
         <Footer />
       </React.Fragment>

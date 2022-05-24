@@ -25,7 +25,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="Projects container mb-5">
+      <div className="Projects container my-5">
         <div className="row">
           {this.state.GitHub === ""
             ? ""
