@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
         </div>
         <p className="x-card-description">
           {props.CardDescription.length > 100
-            ? props.CardDescription.substr(0, 75) + "..."
+            ? props.CardDescription.substr(0, 150) + "..."
             : props.CardDescription}
         </p>
       </div>
