@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/Header.css";
+import "./css/AboutHeader.css";
 
-const Header = () => {
+const AboutHeader = () => {
   return (
     <header className="About-Header">
       <h5 className="Header-Pre">HEY THERE! I AM</h5>
@@ -11,4 +11,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AboutHeader;

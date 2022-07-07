@@ -1,21 +1,19 @@
 import React from "react";
 
 import MainNav from "../Navigator/Index";
-import Header from "./Header";
-import Founder from "./Founder";
-import Xyshma from "./Xyshma";
+import AboutHeader from "./AboutHeader";
+import AboutYahaya from "./AboutYahaya";
 import Footer from "../Footer/Footer";
 
-const AboutXyshma = () => {
+const AboutYahayaIndex = () => {
   return (
     <React.Fragment>
       <MainNav />
-      <Header />
-      <Founder />
-      <Xyshma />
+      <AboutHeader />
+      <AboutYahaya />
       <Footer />
     </React.Fragment>
   );
 };
 
-export default AboutXyshma;
+export default AboutYahayaIndex;

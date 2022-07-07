@@ -1,14 +1,14 @@
 import React from "react";
-import "./css/Founder.css";
-import FounderImage from "./image/Founder.jpg";
-import Psychometric from "./documents/YAHAYA-MUHAMMAD-BELLO-Psychometric.pdf";
+import "./css/AboutYahaya.css";
+import AboutYahayaPicture from "./image/About-Yahaya-Picture.jpg";
+import AboutYahayaPsychometric from "./documents/ABOUT-YAHAYA-MUHAMMAD-BELLO-Psychometric.pdf";
 
-const Founder = () => {
+const AboutYahaya = () => {
   return (
     <div className="Xyshma-Founder container-fluid row">
       <div className="Founder-Image-Container col-md-5 mb-5">
         <img
-          src={FounderImage}
+          src={AboutYahayaPicture}
           className="Founder-Image"
           alt="Xyshma Founder Image"
         />
@@ -55,7 +55,7 @@ const Founder = () => {
           </tr>
         </table>
         <a
-          href={Psychometric}
+          href={AboutYahayaPsychometric}
           className="x-btn x-btn-primary Founder-Info-Download"
           target="_blank"
         >
@@ -67,4 +67,4 @@ const Founder = () => {
   );
 };
 
-export default Founder;
+export default AboutYahaya;

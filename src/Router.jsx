@@ -8,7 +8,7 @@ import XyshmaHome from "./home/Index";
 import XyshmaProjects from "./projects/Index";
 
 // ABOUT COMPONENT
-import AboutXyshma from "./about/Index";
+import AboutYahayaIndex from "./AboutMe/AboutIndex";
 
 const Xyshma = () => {
   return (
@@ -16,7 +16,7 @@ const Xyshma = () => {
       <Routes>
         <Route path="/" element={<XyshmaHome />} />
         <Route path="/projects" element={<XyshmaProjects />} />
-        <Route path="/about" element={<AboutXyshma />} />
+        <Route path="/about" element={<AboutYahayaIndex />} />
       </Routes>
     </BrowserRouter>
   );
