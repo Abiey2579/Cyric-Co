@@ -105,7 +105,7 @@
     TRANSPARENTS COLORS FAMILY 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   */
-  --Overlay-Light: rgba(0, 0, 0, 0.6);
+  --Overlay-Light: rgba(0, 0, 0, 0.35);
   --Overlay-Dark: rgba(0, 0, 0, 0.8);
   --Black-Zero-Opacity: rgba(0, 0, 0, 0);
   /* Borders */
