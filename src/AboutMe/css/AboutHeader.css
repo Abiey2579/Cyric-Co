@@ -3,7 +3,7 @@
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 80vh;
   margin-bottom: 6.25rem;
 }
 
@@ -16,30 +16,38 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.About-Yahaya-Picture-4-4 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+/* .About-Yahaya-Picture-4-4 {
+  width: 180px;
+  height: 180px;
+  border-radius: 0.5rem;
   overflow: hidden;
-  border: 4px solid var(--Dark-Gray-100);
+  border: 2px solid var(--Dark-Gray-100);
   background-image: url("./../image/About-Yahaya-Picture-4-4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 20px;
-}
+} */
 
 .About-Yahaya-Name {
   color: var(--White);
   font-size: 2.5rem;
-  font-family: "Open Sans Black" !important;
+  font-family: "Roboto Black" !important;
   text-transform: uppercase;
 }
 
 .About-Yahaya-Profession {
   color: var(--White);
-  font-size: 1.25rem;
-  font-family: "Product Sans" !important;
+  font-size: 1.4rem;
+  font-family: "Open Sans Light" !important;
 }
+
+/* .About-Yahaya-Hire-Me {
+  padding: 8px 32px;
+  color: var(--White);
+  font-family: "Open Sans Medium" !important;
+  background-color: transparent;
+} */
