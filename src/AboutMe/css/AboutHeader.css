@@ -19,19 +19,6 @@
   text-align: center;
 }
 
-/* .About-Yahaya-Picture-4-4 {
-  width: 180px;
-  height: 180px;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  border: 2px solid var(--Dark-Gray-100);
-  background-image: url("./../image/About-Yahaya-Picture-4-4.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-} */
-
 .About-Yahaya-Name {
   color: var(--White);
   font-size: 2.5rem;
@@ -44,10 +31,3 @@
   font-size: 1.4rem;
   font-family: "Open Sans Light" !important;
 }
-
-/* .About-Yahaya-Hire-Me {
-  padding: 8px 32px;
-  color: var(--White);
-  font-family: "Open Sans Medium" !important;
-  background-color: transparent;
-} */
