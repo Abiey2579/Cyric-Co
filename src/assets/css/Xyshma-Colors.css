@@ -11,16 +11,9 @@
     YELLOW COLORS FAMILY 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   */
-  --Yellow: #fbbc05;
-  --Yellow-900: #fbbc05e6;
-  --Yellow-800: #fbbc05cc;
-  --Yellow-700: #fbbc05b3;
-  --Yellow-600: #fbbc0599;
-  --Yellow-500: #fbbc0580;
-  --Yellow-400: #fbbc0566;
-  --Yellow-300: #fbbc054d;
-  --Yellow-200: #fbbc0533;
-  --Yellow-100: #fbbc051a;
+  --Yellow: #f3ab3f;
+  --Yellow-900: #ee991a;
+
   /* 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     BLUE COLORS FAMILY 
@@ -39,16 +32,9 @@
     RED COLORS FAMILY 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   */
-  --Red: #ea4335;
-  --Red-900: #ea4335e6;
-  --Red-800: #ea4335cc;
-  --Red-700: #ea4335b3;
-  --Red-600: #ea433599;
-  --Red-500: #ea433580;
-  --Red-400: #ea433566;
-  --Red-300: #ea43354d;
-  --Red-200: #ea433533;
-  --Red-100: #ea43351a;
+  --Red: #ea592a;
+  --Red-900: #e64814;
+
   /* 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     GREEN COLORS FAMILY 

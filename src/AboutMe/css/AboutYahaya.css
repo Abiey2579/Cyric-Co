@@ -1,42 +1,34 @@
-.Xyshma-Founder {
+.About-Yahaya-Section {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
+  margin: auto;
   margin-bottom: 6.25rem;
 }
 
-.Founder-Image {
+.About-Yahaya-Image {
   width: 100%;
   border-radius: 0.35rem;
 }
 
-.Founder-Info-Head {
+.About-Yahaya-Info-Head {
   color: var(--Black);
-  font-family: "Product Sans Black" !important;
+  font-family: "Product Sans" !important;
+  font-weight: bold;
   font-size: 2.3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.Founder-Info-Preamble {
-  color: var(--Dark-Gray-600);
+.About-Yahaya-Info-SubHead {
+  color: var(--Dark-Gray);
+  font-family: "Roboto Medium" !important;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.About-Yahaya-Info-Preamble {
+  color: var(--Dark-Gray-900);
   line-height: 1.6;
-}
-
-.Founder-Info-Table > tr {
-  line-height: 2.2;
-}
-
-.Founder-Info-Icon {
-  color: var(--Black);
-  margin-right: 1.5rem;
-}
-
-.Founder-Info-Content {
-  color: var(--Dark-Gray-800);
-  font-family: "Open Sans" !important;
-  font-size: 0.9rem;
-}
-
-.Founder-Info-Download {
-  margin-top: 1rem;
+  font-size: 1.1em;
 }
