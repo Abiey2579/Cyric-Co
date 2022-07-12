@@ -168,7 +168,7 @@ h6 {
 }
 .x-btn-warning {
   color: var(--White);
-  background-color: var(--Yellow-900);
+  background-color: var(--Yellow-Dim);
 }
 .x-btn-warning:hover {
   color: var(--White);
@@ -206,7 +206,7 @@ h6 {
   border-color: var(--Blue-600);
 }
 .x-border-warning {
-  border-color: var(--Yellow-900);
+  border-color: var(--Yellow-Dim);
 }
 .x-border-warning:hover {
   border-color: var(--Yellow);

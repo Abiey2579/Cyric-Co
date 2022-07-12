@@ -11,8 +11,9 @@
     YELLOW COLORS FAMILY 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   */
-  --Yellow: #f3ab3f;
-  --Yellow-900: #ee991a;
+  --Yellow-Dim: #f3ab3f;
+  --Yellow: #ee991a;
+  --Yellow-Light: rgb(238, 153, 26, 0.3);
 
   /* 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

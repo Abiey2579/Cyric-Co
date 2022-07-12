@@ -8,7 +8,7 @@ const Header = () => {
       <div className="Xyshma-Header-Description">
         <p className="Mini-Header">Discover the colorful world</p>
         <h1 className="Welcome-Title">Build your dream</h1>
-        <Link to="/projects" className="x-btn x-btn-primary">
+        <Link to="/projects" className="x-btn x-btn-warning">
           Explore Projects
         </Link>
       </div>
