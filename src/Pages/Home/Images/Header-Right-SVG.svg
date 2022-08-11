@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="353.553" height="353.553" viewBox="0 0 353.553 353.553">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003049"/>
+      <stop offset="1" stop-color="#000a0f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d62828"/>
+      <stop offset="1" stop-color="#6b1414"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f77f00"/>
+      <stop offset="1" stop-color="#7c4000"/>
+    </linearGradient>
+  </defs>
+  <g id="HEADER_RIGHT" data-name="HEADER RIGHT" transform="translate(-697.223 -172.223)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="250" height="250" rx="50" transform="translate(749 224)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="250" height="250" rx="50" transform="translate(874 172.223) rotate(45)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="250" height="250" rx="50" transform="translate(713.786 274.291) rotate(-20)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

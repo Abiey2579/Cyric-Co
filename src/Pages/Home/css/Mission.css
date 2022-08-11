@@ -1,0 +1,49 @@
+section.Mission {
+  width: 100vw;
+  background-color: rgba(234, 226, 183, 0.5);
+  padding: 2rem 0;
+}
+
+section.Mission div.MissionCard {
+  border: 1px solid rgba(234, 226, 183, 1) !important;
+}
+
+section.Mission h2 {
+  font-size: 2.8125rem;
+  color: #003049;
+  font-family: "Gotham Black";
+  line-height: 1.4;
+  margin-bottom: 3.5625rem;
+  text-align: center;
+}
+
+section.Mission p {
+  text-align: center;
+  color: var(--Dark-Blue);
+}
+
+section.Mission div.QuoteRecite {
+  font-weight: bold;
+  color: var(--Dark-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.Mission div.QuoteRecite::after {
+  content: "";
+  width: 3rem;
+  height: 3px;
+  background-color: var(--Dark-Blue);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+section.Mission div.QuoteRecite::before {
+  content: "";
+  width: 3rem;
+  height: 3px;
+  background-color: var(--Dark-Blue);
+  display: inline-block;
+  margin-right: 10px;
+}

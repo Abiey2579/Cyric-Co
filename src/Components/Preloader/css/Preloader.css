@@ -1,0 +1,18 @@
+.PreloaderWrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #eae2b7;
+  display: grid;
+  place-items: center;
+  transition: opacity 1s, visibility 4s;
+}
+
+.fade {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fi.fi-spin {
+  font-size: 4rem;
+}

@@ -1,0 +1,82 @@
+header.MainHeader {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(234, 226, 183, 0.5);
+  padding: var(--NavBar-Padding-TB) var(--NavBar-Padding-LR);
+  margin-bottom: 50px;
+}
+
+h2.Slogan {
+  font-size: 45px;
+  color: #003049;
+  font-family: "Gotham Black" !important;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+span.SloganMaker {
+  font-size: 45px;
+  font-family: "Gotham Black" !important;
+  font-weight: bold;
+  color: #fcbf49;
+}
+
+p.Intro {
+  font-size: 16px;
+  color: #003049;
+  font-family: "Gotham" !important;
+}
+
+div.ButtonGroup button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  /* font-weight: bold; */
+}
+
+div.ButtonGroup button:first-child {
+  background-color: #fcbf49;
+  color: #fff;
+  margin-right: 17px;
+  box-shadow: 5px 3px 7px rgba(0, 48, 73, 0.1);
+}
+
+div.ButtonGroup button:first-child:hover {
+  background-color: #fcbf49;
+}
+
+div.ButtonGroup button:last-child {
+  background-color: transparent;
+  border: 1px solid #fcbf49;
+  color: #fcbf49;
+  transition: all 0.3s ease-in;
+}
+
+div.ButtonGroup button:last-child:hover {
+  background-color: #fcbf49;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  body {
+    overflow: hidden !important;
+  }
+  div.HeaderRight {
+    display: none;
+  }
+
+  div.ButtonGroup {
+    display: none;
+  }
+
+  header.MainHeader {
+    padding: var(--NavBar-Padding-TB) calc(var(--NavBar-Padding-LR) / 2);
+  }
+
+  div.col-md-6 {
+    padding: 0 !important;
+  }
+}

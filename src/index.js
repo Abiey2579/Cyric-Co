@@ -1,10 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Xyshma from "./Router";
+
+// JQUERY LIBRARY
+import $ from "jquery";
+import "jquery/dist/jquery";
+// BOOTSTRAP LIBRARY
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+// ROUTER
+import CyrixCo from "./Router";
+// PRELOADER
+import Preloader from "./Components/Preloader/Preloader";
+
+// FONTAWESOME LIBRARY
+import { library } from "@fortawesome/fontawesome-svg-core";
+import * as Icons from "@fortawesome/free-solid-svg-icons";
+
+// FONTISTO LIBRARY
+import "fontisto/css/fontisto/fontisto.min.css";
+
+const icontList = Object.keys(Icons)
+  .filter((key) => key !== "fas" && key !== "prefix")
+  .map((icon) => Icons[icon]);
+
+library.add(...icontList);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Xyshma />
+    <CyrixCo />
+    <Preloader />
   </React.StrictMode>,
   document.getElementById("root")
 );

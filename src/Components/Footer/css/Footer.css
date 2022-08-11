@@ -1,0 +1,68 @@
+footer.Xyshma-Footer {
+  width: 100vw;
+  height: 10vh;
+}
+
+footer.Xyshma-Footer > div.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+    background-color: var(--Light-Brown);
+}
+
+div.Social-Icon-Container,
+div.Copyright-Container {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+div.Social-Icon-Container {
+  justify-content: flex-end;
+}
+
+div.Copyright-Container > p {
+  margin-bottom: 0;
+  color: var(--Dark-Blue);
+  font-weight: bold;
+}
+
+a.Social-Icon {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a.Social-Icon::before {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--Dark-Blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Dark-Blue);
+  font-family: "fontisto";
+  transition: .35s;
+}
+
+a.Social-Icon:hover::before {
+  background-color: var(--Dark-Blue);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: var(--White);
+}
+
+.Whatsapp-Icon::before {
+  content: "\e945";
+}
+
+.Google-Icon::before {
+  content: "\e91e";
+}
+
+.Facebook-Icon::before {
+  content: "\e918";
+}

@@ -100,4 +100,16 @@
   /* Nagivation */
   --NavBar-Padding-LR: 2.575rem;
   --NavBar-Padding-TB: 0.5rem;
+
+  /*
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    CRYIX CO. COLOR PALETTE
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  */
+  --Dark-Blue: #003049;
+  --Red: #d62828;
+  --Orange: #f77f00;
+  --Light-Orange: #fcbf49;
+  --Light-Brown: #eae2b7;
+
 }

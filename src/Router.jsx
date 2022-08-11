@@ -2,24 +2,16 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // HOME PAGE COMPONENT
-import XyshmaHome from "./home/Index";
+import HomePage from "./Pages/Home/Index";
 
-// PROJECTS COMPONENT
-import XyshmaProjects from "./projects/Index";
-
-// ABOUT COMPONENT
-import AboutYahayaIndex from "./AboutMe/AboutIndex";
-
-const Xyshma = () => {
+const CyrixCo = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<XyshmaHome />} />
-        <Route path="/projects" element={<XyshmaProjects />} />
-        <Route path="/about" element={<AboutYahayaIndex />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );
 };
 
-export default Xyshma;
+export default CyrixCo;
