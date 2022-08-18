@@ -3,10 +3,8 @@ import "./css/Services.css";
 
 import SMM from "./Images/Connected-world-bro.svg";
 import GraphicDesign from "./Images/Design-team-bro.svg";
-import VirtualAssistant from "./Images/Helping-a-partner-bro.svg";
 import UIUXDesign from "./Images/Prototyping-process-amico.svg";
 import QATesting from "./Images/Software-code-testing-bro.svg";
-import CMS from "./Images/Source-code-pana.svg";
 import WebDesignDevelopment from "./Images/Website-Creator-bro.svg";
 import ContentWriting from "./Images/Writing-a-letter-bro.svg";
 

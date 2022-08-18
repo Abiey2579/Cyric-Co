@@ -1,11 +1,7 @@
 section.Mission {
   width: 100vw;
   background-color: rgba(234, 226, 183, 0.5);
-  padding: 2rem 0;
-}
-
-section.Mission div.MissionCard {
-  border: 1px solid rgba(234, 226, 183, 1) !important;
+  padding: 3.5rem 0;
 }
 
 section.Mission h2 {
@@ -13,13 +9,12 @@ section.Mission h2 {
   color: #003049;
   font-family: "Gotham Black";
   line-height: 1.4;
-  margin-bottom: 3.5625rem;
-  text-align: center;
+  margin-bottom: 1.5625rem;
 }
 
 section.Mission p {
-  text-align: center;
   color: var(--Dark-Blue);
+  text-align: left;
 }
 
 section.Mission div.QuoteRecite {
@@ -27,7 +22,6 @@ section.Mission div.QuoteRecite {
   color: var(--Dark-Blue);
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 section.Mission div.QuoteRecite::after {
@@ -46,4 +40,10 @@ section.Mission div.QuoteRecite::before {
   background-color: var(--Dark-Blue);
   display: inline-block;
   margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  div.HideOnSM {
+    display: none;
+  }
 }

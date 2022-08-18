@@ -1,0 +1,50 @@
+section.ContactUs {
+  width: 100vw;
+  /* background-color: rgba(234, 226, 183, 0.5); */
+  padding: 3.5rem 0;
+}
+
+section.ContactUs h2 {
+  font-size: 2.8125rem;
+  color: #003049;
+  font-family: "Gotham Black";
+  line-height: 1.4;
+  margin-bottom: 1.5625rem;
+}
+
+section.ContactUs p {
+  color: var(--Dark-Blue);
+  text-align: left;
+}
+
+section.ContactUs div.col-md-6 img.ContactUsSVG {
+  margin: auto;
+  text-align: center;
+}
+
+section.ContactUs ul.ContactUs-Handles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.ContactUs ul.ContactUs-Handles li {
+  padding: 0.6rem 0;
+  color: var(--Dark-Blue);
+}
+
+section.ContactUs ul.ContactUs-Handles li i {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+section.ContactUs ul.ContactUs-Handles li span,
+a {
+  color: var(--Dark-Blue);
+  font-weight: "Gotham Medium";
+}
+
+section.ContactUs ul.ContactUs-Handles li a {
+  color: var(--Dark-Blue);
+  text-decoration: none;
+}

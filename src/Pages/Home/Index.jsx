@@ -9,6 +9,7 @@ import Services from "./Services";
 import Footer from "./../../Components/Footer/Footer";
 import WhyUs from "./WhyUs";
 import Mission from "./Mission";
+import ContactUs from "./ContactUs";
 
 class HomePage extends React.Component {
   state = {};
@@ -22,6 +23,7 @@ class HomePage extends React.Component {
         <Services />
         {/* <Members /> */}
         <Mission />
+        <ContactUs />
         <Footer />
       </React.Fragment>
     );

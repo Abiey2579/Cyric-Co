@@ -9,7 +9,7 @@ footer.Xyshma-Footer > div.row {
   align-items: center;
   margin-left: 0;
   margin-right: 0;
-    background-color: var(--Light-Brown);
+  background-color: var(--White);
 }
 
 div.Social-Icon-Container,
@@ -44,7 +44,7 @@ a.Social-Icon::before {
   justify-content: center;
   color: var(--Dark-Blue);
   font-family: "fontisto";
-  transition: .35s;
+  transition: 0.35s;
 }
 
 a.Social-Icon:hover::before {
