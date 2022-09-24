@@ -93,7 +93,7 @@ span.SideDrawer-Item-Label {
   color: var(--Dark-Blue);
   text-decoration: none;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 a.SideDrawer-Link:hover > span.SideDrawer-Item-Label {

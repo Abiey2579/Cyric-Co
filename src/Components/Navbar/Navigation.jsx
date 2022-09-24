@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CyrixCo from "./../../Assets/Images/Cyrix-Co.svg";
+import CyrixCo_Orange from "./../../Assets/Images/Cyrix-Co-Orange.svg";
 import "./css/Navigation.css";
 
 const Navigation = (props) => {
@@ -13,7 +13,7 @@ const Navigation = (props) => {
             <span></span>
             <span></span>
           </button>
-          <img src={CyrixCo} className="Cyrix-Co" alt="Cyrix-Co" />
+          <img src={CyrixCo_Orange} className="Cyrix-Co" alt="Cyrix-Co" />
         </div>
         <div className="NavBar-Collapse">
           <ul className="NavBar-Navigation">

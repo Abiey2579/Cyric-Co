@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CyrixCo from "./../../Assets/Images/Cyrix-Co.svg";
+import CyrixCo_Orange from "./../../Assets/Images/Cyrix-Co-Orange.svg";
 import "./css/NavigationSideDrawer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -11,7 +11,7 @@ const NavigationSideDrawer = (props) => {
         <header className="SideDrawer-Head">
           <div className="CyrixCo-Brand-Wrapper">
             <img
-              src={CyrixCo}
+              src={CyrixCo_Orange}
               className="SideDrawer-CyrixCo"
               alt="Cyrix Co. Logo"
             />

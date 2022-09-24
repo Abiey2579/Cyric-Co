@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/Mission.css";
-import CyrixCo from "./../../Assets/Images/Cyrix-Co.svg";
 import MissionImage from "./Images/Mission.jpg";
 
 const Mission = () => {

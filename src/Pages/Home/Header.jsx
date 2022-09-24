@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderRight from "./Images/Header-Right-SVG.svg";
 import "./css/Header.css";
+import ReactTyped from "react-typed";
 
 const Header = () => {
   const handleMailTo = () => {
@@ -9,23 +9,34 @@ const Header = () => {
   };
   return (
     <header className="MainHeader">
-      <div className="col-md-6">
-        <h2 className="Slogan">
-          Where imaginations turns into{" "}
-          <span className="SloganMaker"> an experience</span>
-        </h2>
-        <p className="Intro">
-          We're very happy to welcome you on board. Join hundreds of companies
-          and individuals who are already skyrocketing their businesses with the
-          help of our pixel-perfect developers.
-        </p>
-        <div className="ButtonGroup">
-          <button onClick={handleMailTo}>Contact Us</button>
-          <button onClick={handleMailTo}>Get In Touch</button>
+      <div className="Header-Overlay">
+        <div className="col-md-8 text-center m-auto">
+          <p className="Welcome-Msg">WELCOME TO CYRIX CO.</p>
+          <h1 className="Slogan">
+            We do{" "}
+            <ReactTyped
+              strings={[
+                "",
+                "Web Design",
+                "Web Development",
+                "Graphic Design",
+                "UI/UX Design",
+              ]}
+              typeSpeed={100}
+              backSpeed={60}
+              loop
+            >
+              <span className="SloganMaker typing">Web Design</span>
+            </ReactTyped>
+          </h1>
+          <p className="Intro">
+            Join hundreds of companies and individuals who are already
+            skyrocketing their businesses with the help of our developers.
+          </p>
+          <div className="ButtonGroup">
+            <button onClick={handleMailTo}>Explore Our Services</button>
+          </div>
         </div>
-      </div>
-      <div className="col-md-6 text-center HeaderRight">
-        <img className="HeaderRightSvg" src={HeaderRight} />
       </div>
     </header>
   );
