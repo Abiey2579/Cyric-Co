@@ -1,103 +1,72 @@
 div.OurServices {
-  padding: 3.125rem;
+  width: 100vw;
+  height: 600px;
+  background: linear-gradient(#003049, #000a0f);
+  display: block;
   margin-bottom: 70px;
+  padding: 50px 0;
 }
 
 div.OurServices h2 {
   font-size: 2.8125rem;
-  color: #003049;
+  color: var(--Orange);
   font-family: "Gotham Black";
   line-height: 1.4;
-  margin-bottom: 3.5625rem;
   text-align: center;
 }
 
-div.ServiceCardGrid {
-  display: grid;
-  grid-template-columns: 20.625rem 20.625rem 20.625rem;
-  row-gap: 10%;
+div.ServicesGrid {
+  padding: 3.125rem;
+  display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
-div.ServiceCard {
+div.Service {
   width: 20.625rem;
-  height: 20.625rem;
-  padding: 0.9375rem 0;
-  background-color: var(--Light-Brown);
-  border-radius: 10px;
+  height: max-content;
+  padding: 0.9375rem calc(0.9375rem * 2);
+  margin: 0.9375rem;
+  background-color: var(--White);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--Dark-Blue);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-div.ServiceCard img {
-  width: auto;
-  max-width: 80%;
+div.Service:hover {
+  background-color: var(--Orange);
+  color: var(--White);
 }
 
-div.ServiceCard img.MoreWidth {
-  width: auto;
-  max-width: 80%;
+div.Service:hover span {
+  color: var(--White);
 }
 
-div.ServiceCard span {
-  display: block;
-  font-size: 1rem;
-  color: #003049;
+div.Service span {
+  text-transform: uppercase;
+  text-align: right;
   font-weight: bold;
+  font-size: 35px;
+  color: #e1e1e1;
 }
-
-@media (max-width: 1076px) {
-  div.ServiceCardGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.3rem 0.625rem;
-  }
-
+@media (max-width: 896px) {
   div.OurServices {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 876px) {
-  div.ServiceCardGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.3rem 0.625rem;
-  }
-}
-
-@media (max-width: 640px) {
-  div.ServiceCard {
-    width: 12.625rem;
-    height: 12.625rem;
-    min-height: auto;
+    height: max-content;
   }
 
-  div.ServiceCard img {
-    width: 8.25rem;
+  div.ServicesGrid {
+    flex-direction: column;
+    padding: calc(3.125rem / 2);
   }
 
-  div.ServiceCard img.MoreWidth {
-    width: 10.461875rem;
-  }
-}
-
-@media (max-width: 485px) {
-  div.ServiceCard {
-    width: 11rem;
-    min-height: auto;
-    padding: 0.5rem 0;
-  }
-
-  div.ServiceCard img {
-    width: 80%;
-  }
-
-  div.ServiceCard img.MoreWidth {
+  div.Service {
     width: 100%;
+    height: max-content;
   }
 }

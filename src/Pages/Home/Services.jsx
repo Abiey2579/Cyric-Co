@@ -1,41 +1,44 @@
 import React from "react";
 import "./css/Services.css";
 
-import SMM from "./Images/Connected-world-bro.svg";
-import GraphicDesign from "./Images/Design-team-bro.svg";
-import UIUXDesign from "./Images/Prototyping-process-amico.svg";
-import QATesting from "./Images/Software-code-testing-bro.svg";
-import WebDesignDevelopment from "./Images/Website-Creator-bro.svg";
-import ContentWriting from "./Images/Writing-a-letter-bro.svg";
+// import UIUXDesign from "./Images/Prototyping-process-amico.svg";
+// import QATesting from "./Images/Software-code-testing-bro.svg";
+// import WebDesignDevelopment from "./Images/Website-Creator-bro.svg";
 
 const Services = () => {
   return (
     <div className="OurServices">
       <h2>Our Services</h2>
-      <div className="ServiceCardGrid">
-        <div className="ServiceCard">
-          <img src={WebDesignDevelopment} alt="Web Design & Development SVG" />
-          <span>Web Development</span>
+      <div className="ServicesGrid">
+        <div className="Service">
+          <span>01</span>
+          <h4>Web Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem
+            ipsa officia dolore fugit, corporis omnis consequatur blanditiis cum
+            vitae commodi, voluptatem numquam, cupiditate aliquid repellendus
+            non tempore excepturi soluta?
+          </p>
         </div>
-        <div className="ServiceCard">
-          <img src={UIUXDesign} alt="UI/UX Design SVG" />
-          <span>UI/UX Design</span>
+        <div className="Service">
+          <span data>02</span>
+          <h4>UI/UX Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem
+            ipsa officia dolore fugit, corporis omnis consequatur blanditiis cum
+            vitae commodi, voluptatem numquam, cupiditate aliquid repellendus
+            non tempore excepturi soluta?
+          </p>
         </div>
-        <div className="ServiceCard">
-          <img className="MoreWidth" src={QATesting} alt="QA & Testing SVG" />
-          <span>QA & Testing</span>
-        </div>
-        <div className="ServiceCard">
-          <img src={ContentWriting} alt="Content Writing SVG" />
-          <span>Content Writing</span>
-        </div>
-        <div className="ServiceCard">
-          <img src={GraphicDesign} alt="Graphic Design SVG" />
-          <span>Graphic Design</span>
-        </div>
-        <div className="ServiceCard">
-          <img src={SMM} alt="Social Media Management SVG" />
-          <span>Social Media Managing</span>
+        <div className="Service">
+          <span>03</span>
+          <h4>QA & Testing</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem
+            ipsa officia dolore fugit, corporis omnis consequatur blanditiis cum
+            vitae commodi, voluptatem numquam, cupiditate aliquid repellendus
+            non tempore excepturi soluta?
+          </p>
         </div>
       </div>
     </div>

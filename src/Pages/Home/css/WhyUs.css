@@ -1,6 +1,5 @@
 div.Why-Us {
-  height: 525px;
-  margin: auto;
+  margin-bottom: 50px;
   border-radius: 25px;
   padding: 40px;
 }
@@ -10,4 +9,46 @@ h1.Why-Us-Header {
   font-family: "Gotham Black";
   color: var(--Orange);
   text-align: center;
+  margin-bottom: 50px;
+}
+
+div.ReasonsToChooseUs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: var(--NavBar-Padding-TB) var(--NavBar-Padding-LR);
+}
+
+div.ReasonsToChooseUs div.Reason {
+  color: var(--Dark-Blue);
+}
+
+div.ReasonsToChooseUs div.Reason::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: var(--Orange);
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* 
+
+  MEDIA QUERY
+
+*/
+
+@media (max-width: 768px) {
+  div.ReasonsToChooseUs {
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--NavBar-Padding-TB) calc(var(--NavBar-Padding-LR) / 2);
+  }
+}
+
+@media (max-width: 485px) {
+  div.ReasonsToChooseUs {
+    grid-template-columns: repeat(1, 1fr);
+    padding: var(--NavBar-Padding-TB) calc(var(--NavBar-Padding-LR) / 4);
+  }
 }
