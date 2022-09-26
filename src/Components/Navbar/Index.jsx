@@ -23,21 +23,21 @@ class MainNav extends React.Component {
       },
       {
         ItemLink: "/",
-        Item: "Why Choose Us",
+        Item: "Why Us",
         Icon: "fi fi-share-a fi-fw",
         Type: "fontisto",
       },
       {
         ItemLink: "/",
-        Item: "Our Services",
+        Item: "Services",
         Icon: "gift",
         Type: "fontawesome",
       },
       {
         ItemLink: "/",
-        Item: "Our Mission",
-        Icon: "fi fi-snowflake fi-fw",
-        Type: "fontisto",
+        Item: "Portfolio",
+        Icon: "briefcase",
+        Type: "fontawesome",
       },
       {
         ItemLink: "/",

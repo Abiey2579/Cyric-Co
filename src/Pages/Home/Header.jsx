@@ -7,30 +7,30 @@ const Header = () => {
     <header className="MainHeader">
       <div className="Header-Overlay">
         <div className="col-md-8 text-center m-auto">
-          <p className="Welcome-Msg">WELCOME TO CYRIX CO.</p>
+          <p className="Welcome-Msg">DO YOU WANT</p>
           <h1 className="Slogan">
-            We do{" "}
             <ReactTyped
               strings={[
                 "",
-                "Web Design",
-                "Web Development",
-                "Graphic Design",
-                "UI/UX Design",
+                "Website",
+                "eCommerce",
+                "Registration Portal",
+                "etc",
               ]}
               typeSpeed={100}
               backSpeed={60}
               loop
             >
-              <span className="SloganMaker typing">Web Design</span>
+              <span className="SloganMaker typing">{""}</span>
             </ReactTyped>
           </h1>
           <p className="Intro">
             Join hundreds of companies and individuals who are already
-            skyrocketing their businesses with the help of our developers.
+            skyrocketing their businesses from the final product of our
+            pixel-perfect developers.
           </p>
           <div className="ButtonGroup">
-            <button>Explore Our Services</button>
+            <button>Start a Project</button>
           </div>
         </div>
       </div>

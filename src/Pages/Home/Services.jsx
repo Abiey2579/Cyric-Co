@@ -22,7 +22,7 @@ const Services = () => {
         </div>
         <div className="Service">
           <span data>02</span>
-          <h4>UI/UX Design</h4>
+          <h4>Product Design</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem
             ipsa officia dolore fugit, corporis omnis consequatur blanditiis cum
