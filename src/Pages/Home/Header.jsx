@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./css/Header.css";
 import ReactTyped from "react-typed";
 
 const Header = () => {
-  const handleMailTo = () => {
-    return window.location.replace("mailto:mbyahya2579@gmail.com");
-  };
   return (
     <header className="MainHeader">
       <div className="Header-Overlay">
@@ -34,7 +30,7 @@ const Header = () => {
             skyrocketing their businesses with the help of our developers.
           </p>
           <div className="ButtonGroup">
-            <button onClick={handleMailTo}>Explore Our Services</button>
+            <button>Explore Our Services</button>
           </div>
         </div>
       </div>

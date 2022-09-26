@@ -1,45 +1,81 @@
 import React from "react";
 import "./css/ContactUs.css";
-import ContactUsSVG from "./Images/Get-in-touch-pana.svg";
 
 const ContactUs = () => {
   return (
-    <section className="ContactUs">
-      <div className="row">
-        <div className="col-md-6">
-          <img
-            src={ContactUsSVG}
-            className="img-fluid ContactUsSVG"
-            alt="Contact Us SVG"
-            width={400}
-          />
+    <section className="Contact-Us">
+      <div className="Container">
+        <div className="About">
+          <h4>About</h4>
+          <p>
+            Far far away, behind the world Mountains, far from the countries
+            Volkalia and Consonantia, there live the blind texts.
+          </p>
+          <div className="Social-Handles">
+            <a href="" className="Social-Hanlde-Link Twitter">
+              <i className="fi fi-fw fi-twitter"></i>
+            </a>
+            <a href="" className="Social-Hanlde-Link Facebook">
+              <i className="fi fi-fw fi-facebook"></i>
+            </a>
+            <a href="" className="Social-Hanlde-Link Instagram">
+              <i className="fi fi-fw fi-instagram"></i>
+            </a>
+          </div>
         </div>
-        <div className="col-md-6">
-          <h2>Get in touch</h2>
-          <ul className="ContactUs-Handles">
+        <div className="Links">
+          <h4>Links</h4>
+          <ul>
             <li>
-              <i className="fi fi-email fi-fw"></i>
-              <span>cyrix.company@gmail.com</span>
+              <a href="">Home</a>
             </li>
             <li>
-              <i className="fi fi-phone fi-fw"></i>
-              <span>+2349039402857</span>
+              <a href="">Why Choose Us</a>
             </li>
             <li>
-              <i className="fi fi-facebook fi-fw"></i>
-              <a href="">@cyrixco</a>
+              <a href="">Our Services</a>
             </li>
             <li>
-              <i className="fi fi-twitter fi-fw"></i>
-              <a href="">@cyrixco</a>
+              <a href="">Our Mission</a>
             </li>
             <li>
-              <i className="fi fi-instagram fi-fw"></i>
-              <a href="">@cyrixco</a>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div className="Services-We-Render">
+          <h4>Services</h4>
+          <ul>
+            <li>
+              <a href="">Web Design</a>
             </li>
             <li>
-              <i className="fi fi-linkedin fi-fw"></i>
-              <a href="">@cyrixco</a>
+              <a href="">Product Design</a>
+            </li>
+            <li>
+              <a href="">UI/UX Design</a>
+            </li>
+            <li>
+              <a href="">QA & Testing</a>
+            </li>
+          </ul>
+        </div>
+        <div className="Contact-Info">
+          <h4>Have a Questions?</h4>
+          <ul>
+            <li>
+              <i className="fi fi-fw fi-map-marker-alt"></i>
+              <span>
+                203 Fake St. Mountain View, San Francisco, Calfornia, Nigeria
+              </span>
+            </li>
+            <li>
+              <i className="fi fi-fw fi-phone"></i>
+              <span>+234 9039 4028 57</span>
+            </li>
+            <li>
+              <i className="fi fi-fw fi-email"></i>
+              <span>info@mydomain.com</span>
             </li>
           </ul>
         </div>

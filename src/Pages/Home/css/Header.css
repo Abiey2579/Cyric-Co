@@ -26,6 +26,10 @@ h1.Slogan {
   margin-bottom: 25px;
 }
 
+span.typed-cursor {
+  font-size: 60px;
+}
+
 span.SloganMaker {
   font-size: 60px;
   font-family: "Gotham Black" !important;
@@ -61,7 +65,7 @@ div.ButtonGroup button:first-child:hover {
   background-color: var(--Orange);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   body {
     overflow: hidden !important;
   }
@@ -79,5 +83,29 @@ div.ButtonGroup button:first-child:hover {
 
   div.col-md-6 {
     padding: 0 !important;
+  }
+
+  h1.Slogan {
+    font-size: 40px;
+  }
+  span.typed-cursor {
+    font-size: 40px;
+  }
+  span.SloganMaker {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 485px) {
+  h1.Slogan {
+    font-size: 25px;
+  }
+
+  span.typed-cursor {
+    font-size: 25px;
+  }
+
+  span.SloganMaker {
+    font-size: 25px;
   }
 }

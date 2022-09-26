@@ -1,50 +1,150 @@
-section.ContactUs {
-  width: 100vw;
-  /* background-color: rgba(234, 226, 183, 0.5); */
-  padding: 3.5rem 0;
+section.Contact-Us {
+  background: linear-gradient(#003049, #000a0f);
+  padding: calc(var(--NavBar-Padding-TB) * 6) var(--NavBar-Padding-LR);
 }
 
-section.ContactUs h2 {
-  font-size: 2.8125rem;
-  color: #003049;
-  font-family: "Gotham Black";
-  line-height: 1.4;
-  margin-bottom: 1.5625rem;
+section.Contact-Us > div.Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-section.ContactUs p {
+div.About > *,
+div.Links > *,
+div.Services-We-Render > *,
+div.Contact-Info > * {
+  color: var(--White);
+}
+
+section.Contact-Us h4 {
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+div.About,
+div.Links,
+div.Services-We-Render,
+div.Contact-Info {
+  margin-bottom: 50px;
+}
+
+/* 
+*************************************************
+  ABOUT US
+*************************************************
+*/
+section.Contact-Us p {
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+div.Social-Handles {
+  display: flex;
+}
+div.Social-Handles a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--White);
+  margin-right: 10px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-decoration: none;
+  text-transform: none;
+}
+
+div.Social-Handles a i {
   color: var(--Dark-Blue);
-  text-align: left;
 }
 
-section.ContactUs div.col-md-6 img.ContactUsSVG {
-  margin: auto;
-  text-align: center;
+div.Social-Handles a i.fi-twitter {
+  font-size: 20px;
+}
+div.Social-Handles a i.fi-facebook {
+  font-size: 23px;
+}
+div.Social-Handles a i.fi-instagram {
+  font-size: 21px;
 }
 
-section.ContactUs ul.ContactUs-Handles {
+div.Social-Handles a:hover {
+  background-color: var(--Orange);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div.Social-Handles a:hover > i {
+  color: var(--White);
+}
+/* 
+****************************************************
+  LINKS AND SERVICES WE RENDER
+****************************************************
+*/
+
+section.Contact-Us div.Links ul,
+div.Services-We-Render ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-section.ContactUs ul.ContactUs-Handles li {
-  padding: 0.6rem 0;
-  color: var(--Dark-Blue);
+section.Contact-Us div.Links ul li,
+div.Services-We-Render ul li {
+  line-height: 2.7;
 }
 
-section.ContactUs ul.ContactUs-Handles li i {
-  display: inline-block;
-  margin-right: 1rem;
-}
-
-section.ContactUs ul.ContactUs-Handles li span,
-a {
-  color: var(--Dark-Blue);
-  font-weight: "Gotham Medium";
-}
-
-section.ContactUs ul.ContactUs-Handles li a {
-  color: var(--Dark-Blue);
+section.Contact-Us div.Links ul li a,
+div.Services-We-Render ul li a {
+  color: var(--White);
   text-decoration: none;
+}
+
+section.Contact-Us div.Links ul li a::before,
+div.Services-We-Render ul li a::before {
+  content: "\e976";
+  font-family: "fontisto";
+  padding-right: 10px;
+}
+
+/* 
+****************************************************
+  CONTACT INFO
+****************************************************
+*/
+section.Contact-Us div.Contact-Info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.Contact-Us div.Contact-Info ul li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+section.Contact-Us div.Contact-Info ul i {
+  margin-right: 10px;
+}
+
+/* 
+****************************************************
+  MEDIA QUERY
+****************************************************
+*/
+
+@media (max-width: 768px) {
+  section.Contact-Us > div.Container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--NavBar-Padding-TB) calc(var(--NavBar-Padding-LR) / 2);
+  }
+}
+
+@media (max-width: 485px) {
+  section.Contact-Us > div.Container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: var(--NavBar-Padding-TB) calc(var(--NavBar-Padding-LR) / 4);
+  }
 }
