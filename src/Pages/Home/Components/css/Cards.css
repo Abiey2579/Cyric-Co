@@ -1,0 +1,96 @@
+.PorfolioCard {
+  position: relative;
+  background-color: rgb(20, 20, 20);
+  height: 300px;
+  width: 270px;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 10px 10px 15px rgb(0 0 0 / 10%);
+}
+/* Shadow over images */
+.PorfolioCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  background-color: rgb(0, 0, 0, 0.25);
+  z-index: 1;
+  transition: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.PorfolioCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: bottom;
+  transition: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.PorfolioCard .info {
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  background-color: var(--White);
+  z-index: 2;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  border-radius: 4px;
+  transform: translateY(67%); /* Change this property */
+  transition: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.PorfolioCard .info strong {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.PorfolioCard .info .sub-title {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.PorfolioCard .info hr {
+  margin: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.PorfolioCard .hide-info {
+  transform: translateY(25px);
+  opacity: 0;
+  transition: 0.4s;
+  transition-delay: 0.3s;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.PorfolioCard .hide-info a {
+  position: relative;
+  top: 3px;
+  color: #5549f1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  display: block;
+}
+.PorfolioCard .hide-info a:hover {
+  color: #5549f1;
+}
+
+.PorfolioCard:hover > .info {
+  transform: translateY(0);
+}
+.PorfolioCard:hover > img {
+  transform: scale(1.2);
+}
+.PorfolioCard:hover::after {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.PorfolioCard:hover .hide-info {
+  opacity: 1;
+  transform: translateY(0);
+}

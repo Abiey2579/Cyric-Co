@@ -1,7 +1,7 @@
 div.OurServices {
   width: 100vw;
   height: 600px;
-  background: linear-gradient(#003049, #000a0f);
+  background-color: var(--Dark-Blue);
   display: block;
   margin-bottom: 70px;
   padding: 50px 0;
@@ -55,6 +55,12 @@ div.Service span {
   font-size: 35px;
   color: #e1e1e1;
 }
+
+/* 
+********************************************
+  MEDIA QUERY
+********************************************
+*/
 @media (max-width: 896px) {
   div.OurServices {
     height: max-content;

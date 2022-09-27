@@ -8,7 +8,7 @@ import "./css/Services.css";
 const Services = () => {
   return (
     <div className="OurServices">
-      <h2>Our Services</h2>
+      <h2>Services</h2>
       <div className="ServicesGrid">
         <div className="Service">
           <span>01</span>

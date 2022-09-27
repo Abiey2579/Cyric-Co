@@ -36,7 +36,7 @@ const WhyUs = () => {
   ];
   return (
     <div className="Why-Us">
-      <h1 className="Why-Us-Header">Why Choose Us?</h1>
+      <h1 className="Why-Us-Header">Why Us?</h1>
       <div className="ReasonsToChooseUs">
         {Reasons.map((reason) => (
           <div className="Reason">

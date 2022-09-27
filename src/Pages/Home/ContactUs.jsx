@@ -30,13 +30,13 @@ const ContactUs = () => {
               <a href="">Home</a>
             </li>
             <li>
-              <a href="">Why Choose Us</a>
+              <a href="">Why Us</a>
             </li>
             <li>
-              <a href="">Our Services</a>
+              <a href="">Services</a>
             </li>
             <li>
-              <a href="">Our Mission</a>
+              <a href="">Porfolio</a>
             </li>
             <li>
               <a href="">Contact Us</a>
@@ -47,13 +47,10 @@ const ContactUs = () => {
           <h4>Services</h4>
           <ul>
             <li>
-              <a href="">Web Design</a>
+              <a href="">Web Development</a>
             </li>
             <li>
               <a href="">Product Design</a>
-            </li>
-            <li>
-              <a href="">UI/UX Design</a>
             </li>
             <li>
               <a href="">QA & Testing</a>

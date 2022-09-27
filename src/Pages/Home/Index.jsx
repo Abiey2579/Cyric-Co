@@ -1,14 +1,15 @@
 import React from "react";
 import "./../../Assets/css/Xyshma-Defaults.css";
 
-// CUSTOM COMPONENTS
+// GENERAL PURPOSE COMPONENTS
 import MainNav from "./../../Components/Navbar/Index";
+import Footer from "./../../Components/Footer/Footer";
+
+// HOME PAGE COMPONENTS
 import Header from "./Header";
 import Services from "./Services";
-// import Members from "./Members";
-import Footer from "./../../Components/Footer/Footer";
 import WhyUs from "./WhyUs";
-import Mission from "./Mission";
+import Portfolio from "./Portfolio";
 import ContactUs from "./ContactUs";
 
 class HomePage extends React.Component {
@@ -21,8 +22,7 @@ class HomePage extends React.Component {
         <Header />
         <WhyUs />
         <Services />
-        {/* <Members /> */}
-        <Mission />
+        <Portfolio />
         <ContactUs />
         <Footer />
       </React.Fragment>

@@ -1,6 +1,6 @@
 section.Contact-Us {
-  background: linear-gradient(#003049, #000a0f);
-  padding: calc(var(--NavBar-Padding-TB) * 6) var(--NavBar-Padding-LR);
+  background-color: var(--Dark-Blue);
+  padding: calc(var(--NavBar-Padding-TB) * 10) var(--NavBar-Padding-LR);
 }
 
 section.Contact-Us > div.Container {

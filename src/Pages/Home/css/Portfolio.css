@@ -1,0 +1,80 @@
+section.Portfolio {
+  margin-bottom: 70px;
+}
+
+div.Container {
+  padding: 0 3.5rem;
+}
+
+section.Portfolio h2 {
+  font-size: 2.8125rem;
+  color: #003049;
+  font-family: "Gotham Black";
+  line-height: 1.4;
+  margin-bottom: 1.5625rem;
+  text-align: center;
+}
+
+section.Portfolio p {
+  color: var(--Dark-Blue);
+  text-align: center;
+}
+
+section.Portfolio div.QuoteRecite {
+  font-weight: bold;
+  color: var(--Dark-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Consolas";
+}
+
+section.Portfolio div.QuoteRecite::after {
+  content: "";
+  width: 3rem;
+  height: 3px;
+  background-color: var(--Dark-Blue);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+section.Portfolio div.QuoteRecite::before {
+  content: "";
+  width: 3rem;
+  height: 3px;
+  background-color: var(--Dark-Blue);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div.PortfolioCards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* 
+********************************************
+  MEDIA QUERY
+********************************************
+*/
+
+@media (max-width: 896px) {
+  div.PortfolioCards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 768px) {
+  div.PortfolioCards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 485px) {
+  div.PortfolioCards {
+    grid-template-columns: repeat(1, auto);
+  }
+}

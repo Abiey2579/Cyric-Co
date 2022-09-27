@@ -7,15 +7,14 @@ const Header = () => {
     <header className="MainHeader">
       <div className="Header-Overlay">
         <div className="col-md-8 text-center m-auto">
-          <p className="Welcome-Msg">DO YOU WANT</p>
+          <p className="Welcome-Msg">We specialize in</p>
           <h1 className="Slogan">
             <ReactTyped
               strings={[
                 "",
-                "Website",
-                "eCommerce",
-                "Registration Portal",
-                "etc",
+                "Web Development",
+                "Product Design",
+                "QA / Testing",
               ]}
               typeSpeed={100}
               backSpeed={60}

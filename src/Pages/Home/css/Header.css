@@ -8,7 +8,7 @@ div.Header-Overlay {
   align-items: center;
   width: 100vw;
   height: 728px;
-  background: linear-gradient(#003049, #000a0f);
+  background-color: var(--Dark-Blue);
   padding: var(--NavBar-Padding-TB) var(--NavBar-Padding-LR);
 }
 
